@@ -27,5 +27,5 @@ jobs:
           cache: maven
       - name: Build with Maven Wrapper
         run: |
-          chmod +x ./mvnw
+          chmod +x mvnw
           ./mvnw -B package
